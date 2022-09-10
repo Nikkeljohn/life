@@ -14,7 +14,8 @@ h1 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: black;}
-    #logo{
+    
+  #logo {
         float:left;
-        font-size:290%;
+        font-size : 390%;
     }
