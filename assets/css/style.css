@@ -38,6 +38,21 @@ h1 h2 {
     color:inherit;
 }
  #menu a:hover {  background-color:aliceblue;
-    border-bottom: 1px solid #3a3a3a;
+    
+}
+/* hero image*/
+
+#hero-outer {
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+
 }
 
+#hero-image {height: 400px;
+ width: 100%;
+    background-image: url('../media/hero\ image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
