@@ -13,5 +13,8 @@ h1 h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: black;
-
+    color: black;}
+    #logo{
+        float:left;
+        font-size:290%;
+    }
