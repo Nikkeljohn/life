@@ -188,3 +188,19 @@ h1 h2 {
     box-sizing: border-box;
     border: 2px solid;
  }
+ /*footer styling*/
+ footer{
+    height: 150px;
+ }
+ .social-media {text-align: center;
+
+ }
+ .social-media > li{
+    display: inline;
+ }
+ .social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+ }
