@@ -168,3 +168,12 @@ h1 h2 {
  width: 400px;
  background-size: cover;}
     
+ /*our doctors*/
+ #doctors {
+    background-image: url('../media/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+ }
