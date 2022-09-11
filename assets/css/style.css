@@ -6,7 +6,7 @@
 }
 body {
     font-family:Lato, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color:black;
 background-color:darkcyan}
 
@@ -46,13 +46,52 @@ h1 h2 {
     overflow: hidden;
     height: 400px;
     width: 100%;
+    position: relative;
 
 }
 
+#cover-text, #cover-text h2{
+    color: white;
+
+}
 #hero-image {height: 400px;
  width: 100%;
     background-image: url('../media/hero\ image.jpg');
     background-repeat: no-repeat;
     background-position: center;
+        background-size: cover;
+    
    
+    /* animation zoom effect on hero image*/
+     animation-name: hero-zoom;
+     animation-duration: 5s;
+     animation-fill-mode:backwards;
+
+}
+/* creat the zoom level for hero image*/
+@keyframes hero-zoom{ 
+    from {
+        transform: scale(1);
+    }
+    to{transform: scale(1.1);}
+}
+#cover-text {
+    font-size: 130%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+    padding-top:  40px; 
+    padding-left: 10px;
+    
+    background-color:none;
+    
+    top: 30px;
+    left: 150px;
+
+    position:absolute
+
+
 }
