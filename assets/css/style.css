@@ -209,8 +209,18 @@ h1 h2 {
     
  }
  #photos > img {
-    max-width: 100%;
-   
-   
+    max-width: 50%;
+    object-fit: scale-down;
+    max-height: 50%;
+}
+/*media queries*/
+/*media for larger to medium screens*/
+@media screen and (max-width:1200) {
+    
+}
+#overview{
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
 }
  
