@@ -133,3 +133,38 @@ h1 h2 {
     margin-bottom: 50px;
    }
 
+   .right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+   }
+.right-about-heading h2{
+    text-align: right;
+}
+.right-about-heading p{
+    text-align: right;
+}
+#hope {
+    text-align: center;
+    font: bolder;
+    margin: 20px 0;
+    font-size: 400;
+}
+#box-contianer {
+    border-style: ridge;
+    border-color: #3a3a3a;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-width: 1px
+
+}
+#box-cover-bg {
+    background: url('../media/ethos.jpeg') no-repeat;
+ height: 400px;
+ width: 400px;
+ background-size: cover;}
+    
