@@ -18,7 +18,8 @@ h1 h2 {
     
   #logo {
         float:left;
-        font-size : 390%;
+        font-size : 350%;
+        margin-left: 30px;
     }
 #menu { 
     font-size: 115%;
@@ -92,6 +93,15 @@ h1 h2 {
     left: 150px;
 
     position:absolute
-
-
 }
+
+   /*overview*/
+   #overview{
+    height: 600px;
+   }
+   
+   #left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+   }
