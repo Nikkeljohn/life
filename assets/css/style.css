@@ -140,10 +140,15 @@ h1 h2 {
     clear: both;
     margin-bottom: 50px;
    }
+  
+   
 .right-about-heading h2{
     text-align: right;
 }
 .right-about-heading p{
+    text-align: right;
+}
+.field, .field__label, .field__item{
     text-align: right;
 }
 #hope {
@@ -216,7 +221,8 @@ h1 h2 {
 /*media queries*/
 /*media for larger to medium screens*/
 
-@media screen and (max-width: 1200) { #overview {
+@media screen and (max-width: 1200) { 
+    #overview {
     width: 65%;
     height: 1200px;
     margin: 0 auto;
@@ -248,11 +254,32 @@ h1 h2 {
 }
 /*for medium size screen*/
 @media screen and ( max-width: 950px) {
-    /* #menu{
+    #menu{
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-    } */
+    }
+
+#cover-text {
+    left: 0;
+}
+#overview{
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+}
+.left-about-heading, .right-about-heading {
+    width: inherit;
+}
+.left-about-heading h2, .right-about-heading h2 {
+    width: 100%;
+    text-align: center;
+}
+.left-about-heading p, .right-about-heading p, .field, .field__label, .field__item{
+    text-align: center;
+    padding: 0 20px;
+}
+
 }
