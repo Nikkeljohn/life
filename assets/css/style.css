@@ -244,6 +244,12 @@ h1 h2 {
 }
  
  hr{display: none;}
+ #doctors > div {
+    width: 100%;
+    clear: both;
+    height: 150px;
+
+ }
 
  #center-about {
     width: 100%;
