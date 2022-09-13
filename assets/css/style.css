@@ -221,7 +221,7 @@ h1 h2 {
 /*media queries*/
 /*media for larger to medium screens*/
 
-@media screen and (max-width: 1200) { 
+@media screen and (max-width: 1200px) { 
     #overview {
     width: 65%;
     height: 1200px;
