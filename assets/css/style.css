@@ -8,7 +8,7 @@ body {
     font-family:Lato, sans-serif;
     font-weight: 400;
     color:black;
-background-color:darkcyan}
+background-color:white}
 
 h1 h2 {
     font-family: oswald, sans-serif, ;
@@ -418,5 +418,5 @@ h1 h2 {
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #e71212;
 }
