@@ -30,3 +30,6 @@ after booking then we driected to another page where it says thanks for booking
 <img src="/workspace/life/assets/media/website8.png">
 <h2>CLICK HERE</h2> is provided in both thank you page so user can go back without going for back button
 <img src="/workspace/life/assets/media/website9.png">
+<h2>Our Hospital</h2>
+In here we have all our hospital images which is located all over the world
+<img src="/workspace/life/assets/media/website10.png">
