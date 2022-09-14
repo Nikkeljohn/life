@@ -26,7 +26,7 @@ Welcome to life hospital website!
 <h2>Booking Appointment</h2>
 <p>booking page is created , we required to enter email id ,name, number then only we can book an appointment</p>
 <img src="/workspace/life/assets/media/website7.png">
-after booking then we driected another page where it says thanks for booking 
+after booking then we driected to another page where it says thanks for booking 
 <img src="/workspace/life/assets/media/website8.png">
 <h2>CLICK HERE</h2> is provided in both thank you page so user can go back without going for back button
 <img src="/workspace/life/assets/media/website9.png">
