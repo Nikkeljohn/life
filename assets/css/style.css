@@ -287,6 +287,9 @@ h1 h2 {
     text-align: center;
     padding: 0 20px;
 }
+#images{
+    column-count: 2;
+}
 
 }
 @media screen and (max-width: 800px) {
@@ -298,6 +301,7 @@ h1 h2 {
         clear: both;
         margin: 0 auto;
     }
+    #images{column-count: 1;}
     
 }
 
