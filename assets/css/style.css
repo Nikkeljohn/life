@@ -293,6 +293,10 @@ h1 h2 {
 
 }
 @media screen and (max-width: 800px) {
+    #new{width: auto;
+        text-align: center;
+
+    }
     #pothos1 {
         
         clear: both;
