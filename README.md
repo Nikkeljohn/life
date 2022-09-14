@@ -16,4 +16,17 @@ Welcome to life hospital website!
 <p>Here we have given four dedicated social media button with icon to each button so user won't have and problem to identify them , to access them we have to login in each and every website we press in</p>
 <img src="/workspace/life/assets/media/website3.png">
 <h2>Favicon</h2>
-<p>A favicon </p>
+<p>A favicon is added so it will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open, and doctors emblem was given for the life hospital website</p>
+<img src="/workspace/life/assets/media/website4.png">
+<h1>Chat and Booking appointment</h1>
+<h2>Chat</h2>
+<img src="/workspace/life/assets/media/website5.png">
+<p>A chat box is created for question so we can ask to help center and and after completling all required task and accurately after pressing send it will take us to new window where a message shows up and tells message was send and thank you  <p>
+<img src="/workspace/life/assets/media/website6.png">
+<h2>Booking Appointment</h2>
+<p>booking page is created , we required to enter email id ,name, number then only we can book an appointment</p>
+<img src="/workspace/life/assets/media/website7.png">
+after booking then we driected another page where it says thanks for booking 
+<img src="/workspace/life/assets/media/website8.png">
+<h2>CLICK HERE</h2> is provided in both thank you page so user can go back without going for back button
+<img src="/workspace/life/assets/media/website9.png">
