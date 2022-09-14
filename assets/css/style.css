@@ -52,7 +52,7 @@ h1 h2 {
 }
 
 #cover-text, #cover-text h2{
-    color: white;
+    color: rgb(200, 250, 0);
 
 }
 #hero-image {height: 400px;
@@ -419,4 +419,9 @@ h1 h2 {
 .join-button:hover {
     background-color: #fafafa;
     color: #e71212;
+}
+@media screen and (max-width: 800px) {
+    #box-cover-bg{ width: auto;
+    height: auto;}
+    
 }
