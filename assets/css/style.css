@@ -294,15 +294,20 @@ h1 h2 {
 }
 @media screen and (max-width: 800px) {
     #pothos1 {
-        
         clear: both;
     }
-    #signup, #myForm, {
+    #signup, #myForm, #images{
         clear: both;
         margin: 0 auto;
+        column-count: 1;
     }
-    #images{column-count: 1;}
-    
+    #message, #thanks{
+        width: auto;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+        clear: both;
+    }
 }
 
 /* Form */
@@ -438,14 +443,6 @@ h1 h2 {
 #images > img{
     width: 100%;
 }
-@media screen and(max-width: 800px) {
-    #message > h1, h2, p{
-clear: both;
-width: auto;
-height: auto;
-text-align: center;
-margin: 0;
-    }
-
-    
+#message, #thanks{
+    text-align: center;
 }
