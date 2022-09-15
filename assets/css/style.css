@@ -53,6 +53,9 @@ h1 h2 {
 
 #cover-text, #cover-text h2{
     color: rgb(200, 250, 0);
+    background-color: #3a3a3a;
+    visibility: 0.9;
+
 
 }
 #hero-image {height: 400px;
