@@ -45,3 +45,55 @@ LIFE HOSPITAL gives world-class, Centres of Excellence (COE) are an amalgamation
 <li>chat page and its thank you page</li>
 </ul>
 <h2>Features Left to Implement</h2>
+<ul>
+<li>more hero images and animation</li>
+<li>a compliant form </li>
+<li>a more intractive booking tab so a user can choose which doctor or department they want</li>
+
+<h1>Design</h1>
+<hr>
+<h2>wireframes</h2>
+<h3>Home page<h3>
+<img src="/workspace/life/assets/media/website1.1.png">
+<img src= "/workspace/life/assets/media/website1.7.png">
+<h3>chat page <h3>
+<img src= "/workspace/life/assets/media/website1.3.png">
+<img src="/workspace/life/assets/media/website2.1.png">
+<p>
+<h3>Book Appointment</h3>
+<img src="/workspace/life/assets/media/website1.4.png">
+<img src= "/workspace/life/assets/media/website1.9.png"></p>
+
+<p>
+booking conformation page
+
+<img src="/workspace/life/assets/media/website1.5.png">
+<img src ="/workspace/life/assets/media/website1.8.png"></p>
+
+our hospital
+<p>
+<img src="/workspace/life/assets/media/website1.8.png">
+<img src= "/workspace/life/assets/media/wesite1.2.png">
+
+<h1>Technologies</h1>
+
+<ul>
+<li>HTML</li>
+The structure of the Website was developed using HTML as the main language.
+<li>CSS</li>
+The Website was styled using custom CSS in an external file.
+<li>Gitpod</li>
+The website was developed using gitpod
+<li>GitHub</li>
+Source code is done on GitHub and delpoyed using Git Pages.
+<li>Git</li>
+Used to commit and push code during the development opf the Website
+<li>Font Awesome</li>
+Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
+<li>Tinyjpg</li>
+https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
+<li>Favicon.io</li>
+favicon files were created at https://favicon.io/favicon-converter/
+<li>balsamiq</li>
+wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
+</ul>
