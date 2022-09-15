@@ -33,3 +33,15 @@ after booking then we driected to another page where it says thanks for booking
 <h2>Our Hospital</h2>
 In here we have all our hospital images which is located all over the world
 <img src="/workspace/life/assets/media/website10.png">
+<h2>Life</h2> Centres of Excellence
+LIFE HOSPITAL gives world-class, Centres of Excellence (COE) are an amalgamation of experienced doctors, state of the art technology, and the highest level of patient care and treatment. Our COE’s ensure that every aspect of your care is seamless and the team of experts work together to provide the care you need.
+
+<b>Our COE = Best Clinical Experts + Latest Technology + Exceptional Patient Experience</b>
+<h2>Existing Features</h2>
+<ul>
+<li>intractive home page</li>
+<li>gallery page which is obtain from clicking 'Our Hospital'</li>
+<li>Booking form and thanks page for that</li>
+<li>chat page and its thank you page</li>
+</ul>
+<h2>Features Left to Implement</h2>
