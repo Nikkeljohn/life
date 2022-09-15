@@ -11,7 +11,6 @@
   <link rel="shortcut icon" href="favicon.ico">
   <title>Life Hospital Dublin</title>
 </head>
-
 <body>
   <header>
     <a href="index.html">
@@ -32,22 +31,16 @@
       </ul>
     </nav>
   </header>
-
-  <body>
-    <button class="open-button" onclick="openForm()">Chat</button>
-
-    <div class="chat-popup" id="myForm">
+<button class="open-button" onclick="openForm()">Chat</button>
+<div class="chat-popup" id="myForm">
       <form action="contact.html" class="form-container">
         <h1>Chat</h1>
-
-        <label for="msg"><b>Message</b></label>
+<label for="msg"><b>Message</b></label>
         <textarea placeholder="Type message.." name="msg" required></textarea>
-
-        <button type="submit" class="btn">Send</button>
+<button type="submit" class="btn">Send</button>
         <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
       </form>
     </div>
-
     <script>
       function openForm() {
         document.getElementById("myForm").style.display = "block";

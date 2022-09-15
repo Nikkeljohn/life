@@ -293,15 +293,11 @@ h1 h2 {
 
 }
 @media screen and (max-width: 800px) {
-    #new{width: auto;
-        text-align: center;
-
-    }
     #pothos1 {
         
         clear: both;
     }
-    #signup, #myForm {
+    #signup, #myForm, {
         clear: both;
         margin: 0 auto;
     }
@@ -441,4 +437,15 @@ h1 h2 {
 }
 #images > img{
     width: 100%;
+}
+@media screen and(max-width: 800px) {
+    #message > h1, h2, p{
+clear: both;
+width: auto;
+height: auto;
+text-align: center;
+margin: 0;
+    }
+
+    
 }
