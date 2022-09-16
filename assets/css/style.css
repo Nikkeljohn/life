@@ -233,8 +233,8 @@ h1 h2 {
 #hope {
     padding: 30px 0;
     margin: 0;
-
 }
+
  #right-about{
     width: 100%;
     float: left;
@@ -319,6 +319,12 @@ h1 h2 {
         margin: 0 auto;
         clear: both;
     }
+    #box-cover-bg{
+        clear: both;
+        width: auto;
+        margin: 0 auto;
+        height: auto;
+    } 
 }
 
 /* Form */
