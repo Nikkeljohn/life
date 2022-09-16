@@ -259,8 +259,16 @@ h1 h2 {
     clear: both;
     padding: 0%;
     float: left;
- }
+ } 
+  #message, #thanks{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
 }
+}
+
 /*for medium size screen*/
 @media screen and ( max-width: 950px) {
     #menu{
@@ -295,7 +303,7 @@ h1 h2 {
 }
 
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 960px) {
     #pothos1 {
         clear: both;
     }
