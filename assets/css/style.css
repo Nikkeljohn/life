@@ -19,6 +19,9 @@ h1 h2 {
     letter-spacing: 2px;
     color: black;
 }
+p{
+    font-weight: 500
+}
 
 #logo {
     float: left;
@@ -190,6 +193,7 @@ hr {
     margin: 20px 0;
     font-size: 400;
 }
+
 
 #box-contianer {
     border-style: ridge;
