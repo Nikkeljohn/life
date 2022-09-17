@@ -1,4 +1,7 @@
-
+!DOCUTYPE
+<html>
+<head></head>
+<body>
  <h1>Life Hospital</h1>
 
 Welcome to life hospital website!
@@ -97,3 +100,26 @@ favicon files were created at https://favicon.io/favicon-converter/
 <li>balsamiq</li>
 wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
 </ul>
+<h2>Testing</h2>
+Responsiveness
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
+
+Steps to test:
+
+Open browser and navigate to Tacos Travels
+Open the developer tools (right click and inspect)
+Set to responsive and decrease width to 320px
+Set the zoom to 50%
+Click and drag the responsive window to maximum width
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
+
+Actual:
+
+Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in Unfixed Bugs
+
+Website was also opened on the following devices and no responsive issues were seen:
+
+</body>
+</html>
