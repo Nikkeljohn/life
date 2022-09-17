@@ -8,7 +8,7 @@
 
 body {
     font-family: Lato, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: black;
     background-color: white
 }
@@ -164,7 +164,7 @@ hr {
 .right-about-heading {
     width: 80%;
     float: left;
-    line-height: 25px;
+    line-height: 30px;
     clear: both;
     margin-bottom: 50px;
 }
