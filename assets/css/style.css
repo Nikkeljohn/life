@@ -162,9 +162,9 @@ hr {
 }
 
 .right-about-heading {
-    width: 60%;
+    width: 80%;
     float: left;
-    line-height: 20px;
+    line-height: 25px;
     clear: both;
     margin-bottom: 50px;
 }
@@ -198,7 +198,7 @@ hr {
     height: 400px;
     margin: 0 auto;
     padding: 30px;
-    border-width: 1px
+    border-width: 2px
 }
 
 #box-cover-bg {
@@ -267,16 +267,11 @@ footer {
 
 @media screen and (max-width: 1200px) {
     #overview {
-        width: 65%;
+        width: 70%;
         height: 1200px;
         margin: 0 auto;
     }
-    #box-cover-bg {
-        width: auto;
-        height: auto;
-        margin: 0 auto;
-        clear: both;
-    }
+ 
     #hope {
         padding: 30px 0;
         margin: 0;
@@ -366,12 +361,6 @@ footer {
     #images {
         column-count: 2;
     }
-    #box-cover-bg {
-        width: auto;
-        height: auto;
-        margin: 0 auto;
-        clear: both;
-    } 
 
 }
 
@@ -396,13 +385,14 @@ footer {
         margin: 0 auto;
         clear: both;
     }
-    #box-cover-bg {
-        width: auto;
-        height: auto;
-        margin: 0 auto;
-        clear: both;
-    }
+  
 
+    #center-about {
+        width: 100%;
+        clear: both;
+        padding: 0%;
+        float: left;
+    }
 }
 
 /* Form */
@@ -526,13 +516,13 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-    #box-cover-bg {
-        width: auto;
-        height: auto;
-        margin: 0 auto;
-        clear: both;
-    }
 
+    #center-about {
+        width: 100%;
+        clear: both;
+        padding: 0%;
+        float: left;
+    }
 }
 
 #images {
