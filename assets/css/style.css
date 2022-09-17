@@ -1,46 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
 * {
-    margin:0;
-    padding:0;
-    border:none;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
 body {
-    font-family:Lato, sans-serif;
+    font-family: Lato, sans-serif;
     font-weight: 400;
-    color:black;
-background-color:white}
+    color: black;
+    background-color: white
+}
 
 h1 h2 {
     font-family: oswald, sans-serif, ;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: black;}
-    
-  #logo {
-        float:left;
-        font-size : 350%;
-        margin-left: 30px;
-    }
-#menu { 
+    color: black;
+}
+
+#logo {
+    float: left;
+    font-size: 350%;
+    margin-left: 30px;
+}
+
+#menu {
     font-size: 115%;
     letter-spacing: 4px;
-   }
-   #menu, #logo {
+}
+
+#menu,
+#logo {
     line-height: 85px;
-  }
+}
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    
+
 }
-#menu a { text-decoration:
-    none;
-    color:inherit;
+
+#menu a {
+    text-decoration:
+        none;
+    color: inherit;
 }
- #menu a:hover {  background-color:rgb(72, 146, 211);
-    
+
+#menu a:hover {
+    background-color: rgb(72, 146, 211);
+
 }
+
 /* hero image*/
 
 #hero-outer {
@@ -51,115 +64,133 @@ h1 h2 {
 
 }
 
-#cover-text, #cover-text h2{
+#cover-text,
+#cover-text h2 {
     color: rgb(200, 250, 0);
     background-color: #3a3a3a;
     visibility: 0.9;
 
 
 }
-#hero-image {height: 400px;
- width: 100%;
+
+#hero-image {
+    height: 400px;
+    width: 100%;
     background-image: url('../media/hero\ image.jpg');
     background-repeat: no-repeat;
     background-position: center;
-        background-size: cover;
-    
-   
+    background-size: cover;
+
+
     /* animation zoom effect on hero image*/
-     animation-name: hero-zoom;
-     animation-duration: 5s;
-     animation-fill-mode:backwards;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
 
 }
+
 /* creat the zoom level for hero image*/
-@keyframes hero-zoom{ 
+@keyframes hero-zoom {
     from {
         transform: scale(1);
     }
-    to{transform: scale(1.1);}
+
+    to {
+        transform: scale(1.1);
+    }
 }
+
 #cover-text {
     font-size: 130%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
     width: 300px;
     height: 200px;
-    padding-top:  40px; 
+    padding-top: 40px;
     padding-left: 10px;
-    
-    background-color:none;
-    
+
+    background-color: none;
+
     top: 30px;
     left: 150px;
 
-    position:absolute
+    position: absolute
 }
 
-   /*overview*/
-   #overview{
+/*overview*/
+#overview {
     height: 600px;
-    
-   }
-   
-   #left-about {
+
+}
+
+#left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
-    
-   }
-   #right-about {
+
+}
+
+#right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-  
 
-   }
-   #center-about {
+
+}
+
+#center-about {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    
-   }
-   hr {
+
+}
+
+hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px;
-   }
-   .left-about-heading {
+}
+
+.left-about-heading {
     width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-   }
+}
 
-   .right-about-heading {
+.right-about-heading {
     width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-   }
-  
-   
-.right-about-heading h2{
+}
+
+
+.right-about-heading h2 {
     text-align: right;
 }
-.right-about-heading p{
+
+.right-about-heading p {
     text-align: right;
 }
-.field, .field__label, .field__item{
+
+.field,
+.field__label,
+.field__item {
     text-align: right;
 }
+
 #hope {
     text-align: center;
     font: bolder;
     margin: 20px 0;
     font-size: 400;
 }
+
 #box-contianer {
     border-style: ridge;
     border-color: #3a3a3a;
@@ -168,24 +199,26 @@ h1 h2 {
     margin: 0 auto;
     padding: 30px;
     border-width: 1px
-
 }
+
 #box-cover-bg {
-    background: url('../media/ethos.jpeg') no-repeat;
- height: 400px;
- width: 400px;
- background-size: cover;}
-    
- /*our doctors*/
- #doctors {
+    background: url('../media/web1.jpg') no-repeat;
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+}
+
+/*our doctors*/
+#doctors {
     background-image: url('../media/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     overflow: hidden;
- }
- #doctors div {
+}
+
+#doctors div {
     color: aliceblue;
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
@@ -195,83 +228,104 @@ h1 h2 {
     text-align: center;
     box-sizing: border-box;
     border: 2px solid;
- }
- /*footer styling*/
- footer{
-    height: 150px;
- }
- .social-media {text-align: center;
+}
 
- }
- .social-media > li{
+/*footer styling*/
+footer {
+    height: 150px;
+}
+
+.social-media {
+    text-align: center;
+
+}
+
+.social-media>li {
     display: inline;
- }
- .social-media i {
+}
+
+.social-media i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
- }
- #photos {
+}
+
+#photos {
     clear: both;
-    
- }
- #photos > img {
+
+}
+
+#photos>img {
     max-width: 50%;
     object-fit: scale-down;
     max-height: 50%;
 }
+
 /*media queries*/
 /*media for larger to medium screens*/
 
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 1200px) {
     #overview {
-    width: 65%;
-    height: 1200px;
-    margin: 0 auto;
-}
-#hope {
-    padding: 30px 0;
-    margin: 0;
-}
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #box-cover-bg {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        clear: both;
+    }
+    #hope {
+        padding: 30px 0;
+        margin: 0;
+    }
 
- #right-about{
-    width: 100%;
-    float: left;
-    padding: 0;
-}
-#left-about{ width: 100%;
-    float: left;
-    padding: 0;
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 
-}
- 
- hr{display: none;}
- #doctors > div {
-    width: 100%;
-    clear: both;
-    height: 150px;
+    #left-about {
+        width: 100%;
+        float: left;
+        padding: 0;
 
- }
+    }
 
- #center-about {
-    width: 100%;
-    clear: both;
-    padding: 0%;
-    float: left;
- } 
-  #message, #thanks{
-    width: auto;
-    height: auto;
-    text-align: center;
-    margin: 0 auto;
-    clear: both;
-}
+    hr {
+        display: none;
+    }
+
+    #doctors>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+
+    }
+
+    #center-about {
+        width: 100%;
+        clear: both;
+        padding: 0%;
+        float: left;
+    }
+
+    #message,
+    #thanks {
+        width: auto;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+        clear: both;
+    }
 }
 
 /*for medium size screen*/
-@media screen and ( max-width: 950px) {
-    #menu{
+@media screen and (max-width: 950px) {
+    #menu {
         clear: left;
         float: left;
         margin-left: 30px;
@@ -279,52 +333,76 @@ h1 h2 {
         line-height: 25px;
     }
 
-#cover-text {
-    left: 0;
-}
-#overview{
-    width: 90%;
-    height: 1200px;
-    margin: 0 auto;
-}
-.left-about-heading, .right-about-heading {
-    width: inherit;
-}
-.left-about-heading h2, .right-about-heading h2 {
-    width: 100%;
-    text-align: center;
-}
-.left-about-heading p, .right-about-heading p, .field, .field__label, .field__item{
-    text-align: center;
-    padding: 0 20px;
-}
-#images{
-    column-count: 2;
-}
+    #cover-text {
+        left: 0;
+    }
+
+    #overview {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p,
+    .field,
+    .field__label,
+    .field__item {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #images {
+        column-count: 2;
+    }
+    #box-cover-bg {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        clear: both;
+    } 
 
 }
+
 @media screen and (max-width: 960px) {
     #pothos1 {
         clear: both;
     }
-    #signup, #myForm, #images{
+
+    #signup,
+    #myForm,
+    #images {
         clear: both;
         margin: 0 auto;
         column-count: 1;
     }
-    #message, #thanks{
+
+    #message,
+    #thanks {
         width: auto;
         height: auto;
         text-align: center;
         margin: 0 auto;
         clear: both;
     }
-    #box-cover-bg{
-        clear: both;
+    #box-cover-bg {
         width: auto;
-        margin: 0 auto;
         height: auto;
-    } 
+        margin: 0 auto;
+        clear: both;
+    }
+
 }
 
 /* Form */
@@ -347,7 +425,7 @@ h1 h2 {
     padding: 30px;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -364,58 +442,58 @@ h1 h2 {
     bottom: 23px;
     right: 28px;
     width: 280px;
-  }
-  
-  /* The popup chat - hidden by default */
-  .chat-popup {
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
     display: none;
     position: fixed;
     bottom: 0;
     right: 15px;
     border: 3px solid #f1f1f1;
     z-index: 9;
-  }
-  
-  /* Add styles to the form container */
-  .form-container {
+}
+
+/* Add styles to the form container */
+.form-container {
     max-width: 300px;
     padding: 10px;
     background-color: white;
-  }
-  
-  /* Full-width textarea */
-  .form-container textarea {
+}
+
+/* Full-width textarea */
+.form-container textarea {
     width: 100%;
     margin: 5px 0 22px 0;
     border: none;
     background: #f1f1f1;
     resize: none;
     min-height: 200px;
-  }
-  
-  /* When the textarea gets focus, do something */
-  .form-container textarea:focus {
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
     background-color: #ddd;
     outline: none;
-  }
-  
-  /* Set a style for the submit/send button */
-  .form-container .btn {
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
     background-color: #000000;
     color: white;
     padding: 16px 20px;
     border: none;
     cursor: pointer;
     width: 100%;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     opacity: 0.8;
-  }
-  
-  /* Add a red background color to the cancel button */
-  .form-container .cancel {
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
     background-color: red;
-  }
-  
+}
+
 
 .text-input {
     background: transparent;
@@ -446,21 +524,31 @@ h1 h2 {
     background-color: #fafafa;
     color: #ff0000;
 }
+
 @media screen and (max-width: 800px) {
-    #box-cover-bg{ width: auto;
-    height: auto;}
-    
+    #box-cover-bg {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        clear: both;
+    }
+
 }
-#images{
+
+#images {
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: 0;
 }
-#images > img{
+
+#images>img {
     width: 100%;
 }
 
-#message, #thanks{
+#message,
+#thanks {
     text-align: center;
 }
+
+    
