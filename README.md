@@ -27,23 +27,28 @@ Welcome to life hospital website!
 
 ![chat!](/assets/media/website5.png "Website5")
 
-<p>A chat box is created for question so we can ask to help center and and after completling all required task and accurately after pressing send it will take us to new window where a message shows up and tells message was send and thank you  <p>
+<p>A chat box is created for question so we can ask to help center and and after completling all required task and accurately after pressing send it will take us to new window where a message shows up  "message was send and thank you"  <p>
 
 ![thank you!](/assets/media/website6.png "thankyou")
 
 <h2>Booking Appointment</h2>
 <p>booking page is created , we required to enter email id ,name, number then only we can book an appointment</p>
 
-![booking appointment!](/assets/media/website7.png"website7")
+![booking apponitment!](/assets/media/booking.png "booking page")
 
 after booking then we driected to another page where it says thanks for booking 
 
-<img src="/workspace/life/assets/media/website8.png">
-<h2>CLICK HERE</h2> is provided in both thank you page so user can go back without going for back button
-<img src="/workspace/life/assets/media/website9.png">
-<h2>Our Hospital</h2>
+![thanks !](/assets/media/website8.png "thanks")
+
+<h3>CLICK HERE</h3> is provided in both thank you page so user can go back to home page faster !
+
+![click here !](/assets/media/website9.png "click here")
+
+<h2>Our Hospitals</h2>
 In here we have all our hospital images which is located all over the world
-<img src="/workspace/life/assets/media/website10.png">
+
+![our hospital !](/assets/media/website10.png "our hospitals")
+
 <h2>Life</h2> Centres of Excellence
 LIFE HOSPITAL gives world-class, Centres of Excellence (COE) are an amalgamation of experienced doctors, state of the art technology, and the highest level of patient care and treatment. Our COE’s ensure that every aspect of your care is seamless and the team of experts work together to provide the care you need.
 
