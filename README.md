@@ -70,11 +70,17 @@ LIFE HOSPITAL gives world-class, Centres of Excellence (COE) are an amalgamation
 <hr>
 <h2>wireframes</h2>
 <h3>Home page<h3>
-<img src="/workspace/life/assets/media/website1.1.png">
-<img src= "/workspace/life/assets/media/website1.7.png">
+
+![home page !](/assets/media/website1.1.png "home page")
+
+![home page!](/assets/media/website1.7.png "mobile home")
+
 <h3>chat page <h3>
-<img src= "/workspace/life/assets/media/website1.3.png">
-<img src="/workspace/life/assets/media/website2.1.png">
+
+![chat!](/assets/media/website1.3.png "chat page")
+
+![chat!](/assets/media/website2.1.png "mobile page")
+
 <p>
 <h3>Book Appointment</h3>
 <img src="/workspace/life/assets/media/website1.4.png">
