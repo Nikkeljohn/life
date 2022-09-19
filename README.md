@@ -165,9 +165,9 @@ Aria properties have been implemented correctly
 WCAG 2.1 Coding best practices being followed
 Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
-Issue #1: Use of hidden check boxes and labels for the gallery filter and accordion on the gallery page were not accessible via the keyboard due to the property display: none;
+Issue #1:;
 
-Fix: I could not find a way to fix this issue with html and css alone so a tabindex of 0 was added to allow the label to be tabbed to and an onkeypress event to target and click the correct checkbox was implemented. Javascript code was taken from this Mozilla Doc
+Fix: 
 
-Issue #2: After keyboard controls were implemented, while testing the site with windows 'Narrator' screenreader, it was not clearly known what the purpose of the labels/checkboxes were. An aria-label label was added to the labels for screen readers to alert them that the labels were clickable and what their purpose was.
+Issue #2: .
 

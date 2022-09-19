@@ -31,16 +31,19 @@
       </ul>
     </nav>
   </header>
-<button class="open-button" onclick="openForm()">Chat</button>
+  <button class="open-button" onclick="openForm()">Chat</button>
+
 <div class="chat-popup" id="myForm">
-      <form action="contact.html" class="form-container" aria-label="type message">
-        <h1>Chat</h1>
-<h2>Message</h2>
-<label for="type message">Type message..<textarea placeholder="Type message.." name="message" required id="typemessage"></textarea>
-<button type="submit" class="btn" id="but">Send</button>
-        <button type="button" class="btn cancel" onclick="closeForm()">Close</button></label>
- </form>
-    </div>
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
     <script>
       function openForm() {
         document.getElementById("myForm").style.display = "block";
