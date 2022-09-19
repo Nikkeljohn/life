@@ -93,15 +93,18 @@ LIFE HOSPITAL gives world-class, Centres of Excellence (COE) are an amalgamation
 <p>
 booking conformation page
 
-<img src="/workspace/life/assets/media/website1.5.png">
-<img src ="/workspace/life/assets/media/website1.8.png"></p>
+![conformation!](/assets/media/website1.5.png "webpage")
+
+![conformation!](/assets/media/website1.8.png "mobile")
+
+</p>
 
 our hospitals
 <p>
 
 ![images!](/assets/media/website1.8.png "ourhospitals")
 
-<img src= "/workspace/life/assets/media/wesite1.2.png">
+![images!](assets/media/wesite1.2.png "on mobile")
 
 <h1>Technologies</h1>
 
@@ -127,11 +130,11 @@ wireframes were created using balsamiq from https://balsamiq.com/wireframes/desk
 </ul>
 <h2>Testing</h2>
 Responsiveness
-All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
+All pages were tested to ensure responsiveness on screen sizes from 360px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
 
 Steps to test:
 
-Open browser and navigate to Tacos Travels
+Open browser and navigate to life
 Open the developer tools (right click and inspect)
 Set to responsive and decrease width to 320px
 Set the zoom to 50%
