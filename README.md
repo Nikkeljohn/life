@@ -28,11 +28,16 @@ Welcome to life hospital website!
 ![chat!](/assets/media/website5.png "Website5")
 
 <p>A chat box is created for question so we can ask to help center and and after completling all required task and accurately after pressing send it will take us to new window where a message shows up and tells message was send and thank you  <p>
-<img src="/workspace/life/assets/media/website6.png">
+
+![thank you!](/assets/media/website6.png "thankyou")
+
 <h2>Booking Appointment</h2>
 <p>booking page is created , we required to enter email id ,name, number then only we can book an appointment</p>
-<img src="/workspace/life/assets/media/website7.png">
+
+![booking appointment!](/assets/media/website7.png"website7")
+
 after booking then we driected to another page where it says thanks for booking 
+
 <img src="/workspace/life/assets/media/website8.png">
 <h2>CLICK HERE</h2> is provided in both thank you page so user can go back without going for back button
 <img src="/workspace/life/assets/media/website9.png">
