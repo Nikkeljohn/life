@@ -83,8 +83,12 @@ LIFE HOSPITAL gives world-class, Centres of Excellence (COE) are an amalgamation
 
 <p>
 <h3>Book Appointment</h3>
-<img src="/workspace/life/assets/media/website1.4.png">
-<img src= "/workspace/life/assets/media/website1.9.png"></p>
+
+![booking!](/assets/media/website1.4.png "booking page")
+
+![booking !](/assets/media/website1.9.png "mobile page")
+
+</p>
 
 <p>
 booking conformation page
@@ -92,9 +96,11 @@ booking conformation page
 <img src="/workspace/life/assets/media/website1.5.png">
 <img src ="/workspace/life/assets/media/website1.8.png"></p>
 
-our hospital
+our hospitals
 <p>
-<img src="/workspace/life/assets/media/website1.8.png">
+
+![images!](/assets/media/website1.8.png "ourhospitals")
+
 <img src= "/workspace/life/assets/media/wesite1.2.png">
 
 <h1>Technologies</h1>
@@ -132,11 +138,11 @@ Set the zoom to 50%
 Click and drag the responsive window to maximum width
 Expected:
 
-Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
+Website is responsive on all screen sizes and no images are pixelated or stretched. No elements overlap.
 
 Actual:
 
-Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in Unfixed Bugs
+Website behaved as expected with the exception of switching to landscape view in crome. Details can be found in Unfixed Bugs
 
 Website was also opened on the following devices and no responsive issues were seen:
 
