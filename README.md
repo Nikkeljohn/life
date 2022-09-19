@@ -165,9 +165,5 @@ Aria properties have been implemented correctly
 WCAG 2.1 Coding best practices being followed
 Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
-Issue #1:;
-
-Fix: 
-
-Issue #2: .
+Issue was found but resolved 
 
