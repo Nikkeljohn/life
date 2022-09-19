@@ -9,8 +9,8 @@ Welcome to life hospital website!
 <h2><b>FEATURES</b></h2>
 <h2>website</h2>
 
-<h2>Navigation bar</h2>
-<img src="/workspace/life/assets/media/website2.png"> 
+## Navigation bar
+![navigation bar!](/assets/media/website2.png "Website")
 <p>This navigation provide the major access to  website such as booking appointment, there is medium for us to chat within the website so we can ask our questions and there is two more buttons which allow us to navigate through home and hospital details</p> 
 <h2>Footer</h2>
 <p>Here we have given four dedicated social media button with icon to each button so user won't have and problem to identify them , to access them we have to login in each and every website we press in</p>
