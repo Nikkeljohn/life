@@ -180,3 +180,8 @@ CSS code validator also came error free
 
 ![css!](/assets/media/cssvalidator.png "css validator")
 
+| Navigation link  | page to load       |
+| -----------      | -----------        |
+| Home             | Home page          |
+| Our Hospitals    |  ourhospital.html  |
+
