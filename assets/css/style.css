@@ -14,7 +14,6 @@ body {
 }
 
 h1 h2 {
-    font-family: oswald, sans-serif, ;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: black;
@@ -536,7 +535,7 @@ footer {
 }
 
 /* media query*/
-@media screen and (min-width: 300) {
+@media screen and (min-width: 300px) {
 
     #doctor,
     #box-contianer {
