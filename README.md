@@ -149,9 +149,10 @@ Website is responsive on all screen sizes and no images are pixelated or stretch
 
 Actual:
 
-Website behaved as expected with the exception of switching to landscape view in crome. Details can be found in Unfixed Bugs
-
 Website was also opened on the following devices and no responsive issues were seen:
+samsung galaxy s22
+oneplus
+i phone
 
 ## Accessibility
 
@@ -170,4 +171,12 @@ WCAG 2.1 Coding best practices being followed
 Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
 Issue was found but resolved 
+
+HTML code validator showed no errors in every page 
+
+![html!](/assets/media/nuhtmlcheck.png "html validator")
+
+CSS code validator also came error free
+
+![css!](/assets/media/cssvalidator.png "css validator")
 
