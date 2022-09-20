@@ -199,7 +199,7 @@ hr {
     background: url('../media/web1.jpg') no-repeat;
     height: 400px;
     width: 400px;
-    background-size: cover;
+    background-size: contain;
 }
 
 /*our doctors*/
