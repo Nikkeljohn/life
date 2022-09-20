@@ -536,9 +536,8 @@ footer {
 
 /* media query*/
 @media screen and (min-width: 300px) {
-
-    #doctor,
-    #box-contianer {
+ #doctor,
+ #box-contianer, #box-cover-bg{
         min-width: 300px;
         height: 300px;
     }
