@@ -177,6 +177,8 @@ CSS code validator also came error free
 
 ![css!](/assets/media/cssvalidator.png "css validator")
 
+## Light house testing
+
 ### Functional Testing
 
 **Navigation Links**
@@ -186,7 +188,7 @@ Testing was performed to ensure all navigation links on the respective pages, na
 
 
 |Navigation link   | page to load       |
-|------------------|--------------------|
+| ---------------- | ------------------ |
 | Home             | Home page          |
 | Our Hospitals    |  ourhospital.html  |
 | Chat             | contact.html       |
@@ -198,7 +200,7 @@ Links on all pages navigated to the correct pages as exptected.
 
 The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
 
-_Scenario One - Correct Inputs_
+_Scenario 1 - Correct Inputs_
 
 Steps to test:
 
@@ -214,5 +216,195 @@ Steps to test:
 Expected:
 
 Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
+
+Actual:
+
+Website behaved as expected with no errors or warnings and redirected to contact.html.
+
+_Scenario 2 - Missing Inputs Name_
+
+Steps to test:
+
+1. Navigate to [Life hospital- Home Page]( https://nikkeljohn.github.io/life/signup.html)
+2. Scroll down to the form and input the following data:
+   -  Name       : 
+   - Phone number: 1223131
+   - Email       : john@gmail.com
+   
+3. Click Book!
+
+Expected:
+
+The form does not submit and an pop-up is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+_Scenario 3 - Missing Inputs Email id_
+
+Steps to test:
+
+1. Navigate to [Life hospital- Home Page]( https://nikkeljohn.github.io/life/signup.html)
+2. Scroll down to the form and input the following data:
+   -  Name       :john
+   - Phone number: 1223131
+   - Email       : 
+3. Click Book!
+
+Expected:
+
+The form does not submit and an pop-up is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, pop-up message was displayed and the form did not submit.
+
+_Scenario 4 - missing Inputs Phone number_
+
+Steps to test:
+
+1. Navigate to [Life hospital- Home Page]( https://nikkeljohn.github.io/life/signup.html)
+2. Scroll down to the form and input the following data:
+   -  Name       : john
+   - Phone number: 
+   - Email       : john@gmail.com
+   
+3. Click Book!
+
+Expected:
+
+The form does not submit and an pop-up message is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, pop-up message was displayed and the form did not submit.
+
+_Scenario 5 - Missing Inputs All_
+
+Steps to test:
+
+1. Navigate to [Life hospital- Home Page]( https://nikkeljohn.github.io/life/signup.html)
+2. Scroll down to the form and input the following data:
+   -  Name       : 
+   - Phone number: 
+   - Email       : 
+   
+3. Click Book!
+
+Expected:
+
+The form does not submit and an pop-up message is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, pop-up message was displayed and the form did not submit.
+
+**Footer Social Media Icons / Links**
+
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each 
+
+Each item opened a new tab when clicked as expected.
+
+**Contact Information**
+
+Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
+
+_Steps to test Telephone Number_
+
+1. Navigate to [Life hospital - Home Page](https://nikkeljohn.github.io/life/index.html)
+2.  Click on the number given on the right side of the home page  (Helpline +353089222222)
+
+Expected:
+
+A window is opened asking which device you would like to call from.
+
+Actual:
+
+Behavior was as expected and the window presented me with the following option to call:
+
+-  Mobile Phone
+
+_Steps to test Email Link_
+
+1. Navigate to [Life hospital - Home Page](https://nikkeljohn.github.io/life/index.html)
+
+2. Click the email address given on the right side of the home page(lifeird@liferhospital.com) 
+
+Expected:
+
+A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
+
+Actual:
+
+Behavior was as expected and my outlook application was opened ready to send an email to the target address.
+
+
+_Steps to test Maps_
+
+1. Navigate to [Life hospital - Home Page](https://nikkeljohn.github.io/life/index.html)
+
+2. Click the get direction given on the right side of the home page (GET DIRECTIONS)
+
+Expected:
+
+A new tab is opend for map.
+
+Actual:
+
+Behavior was as expected a new tab for map is opened.
+
+## Deployment
+
+### Version Control
+
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully. 
+
+The live link can be found here - https://nikkeljohn.github.io/life
+
+
+### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use.
+
+## Credits 
+1. All the images were taken from google
+2. chat pop-up seen in chat.html was a references was taken from w3 school
+
+## Special Thanks
+
+special thanks to my mentors Daisy McGirr and Simen Daehlin 
+
+Special thanks to my batch mates from ucd and all the people who helped me directly and indirectly for this project
+
+
+
+
+
 
 
