@@ -179,6 +179,7 @@ CSS code validator also came error free
 
 ## Light house testing
 
+![light house!](/assets/media/Screen.png "light house")
 ### Functional Testing
 
 **Navigation Links**
