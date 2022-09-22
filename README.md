@@ -108,63 +108,64 @@ our hospitals
 
 <h1>Technologies</h1>
 
-<ul>
-<li>HTML</li>
-The structure of the Website was developed using HTML as the main language.
-<li>CSS</li>
-The Website was styled using custom CSS in an external file.
-<li>Gitpod</li>
-The website was developed using gitpod
-<li>GitHub</li>
-Source code is done on GitHub and delpoyed using Git Pages.
-<li>Git</li>
-Used to commit and push code during the development opf the Website
-<li>Font Awesome</li>
-Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
-<li>Tinyjpg</li>
-https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
-<li>Favicon.io</li>
-favicon files were created at https://favicon.io/favicon-converter/
-<li>balsamiq</li>
-wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
-</ul>
+ HTML
+- The structure of the Website was developed using HTML as the main language.
+
+ CSS
+
+- The Website was styled using custom CSS in an external file.
+ 
+ Gitpod
+
+- The website was developed using gitpod
+ 
+ GitHub
+- Source code is done on GitHub and deployed using Git Pages.
+ 
+ Git
+- Used to commit and push code during the development of the Website
+ 
+ Font Awesome
+- Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section.
+
+Tinyjpg
+- https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
+ 
+ Favicon.io
+- favicon files were created at https://favicon.io/favicon-converter/
+ 
+ Balsamiq
+- wireframes were created using Balsamiq from https://balsamiq.com/wireframes/desktop/#
+
+
 <h2>Testing</h2>
+
 Responsiveness
-All pages were tested to ensure responsiveness on screen sizes from 360px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox and Opera browsers.
 
-Steps to test:
+All pages were tested to ensure responsiveness on screen sizes from 360px and upwards as defined in WCAG 2.1 Reflow criteria for responsive design on Chrome, Edge, Firefox, and Opera browsers. 
 
-Open browser and navigate to life
-Open the developer tools (right click and inspect)
-Set to responsive and decrease width to 320px
-Set the zoom to 50%
-Click and drag the responsive window to maximum width
-Expected:
+Steps to test: 
 
-Website is responsive on all screen sizes and no images are pixelated or stretched. No elements overlap.
+Open the browser and navigate to the lifespan of the developer tools (right click and inspect)Set to responsive and decrease width to 320pxSet the zoom to 50%Click and drag the responsive window to maximum width expected: Website is responsive on all screen sizes and no images are pixelated or stretched. No elements overlap. 
 
-Actual:
+Actual: The website was also opened on the following devices and no responsive issues were seen: 
 
-Website was also opened on the following devices and no responsive issues were seen:
-samsung galaxy s22
+Samsung galaxy s22
+
 oneplus
+
 i phone
 
 ## Accessibility
 
-Wave Accessibility tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
+Wave Accessibility tool was used throughout the development and for the final testing of the deployed website to check for any aid accessibility testing. 
 
 Testing was focused to ensure the following criteria were met:
 
-All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
-Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines
-Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
-All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
-All not textual content had alternative text or titles so descriptions are read out to screen readers
-HTML page lang attribute has been set
-Aria properties have been implemented correctly
-WCAG 2.1 Coding best practices being followed
-Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
+All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputsColor contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast GuidelinesHeading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions, not textual content had alternative text or titles so descriptions are read out to screen renders 
+
+HTML page lang attribute has been Setaria properties have been implemented correctlyWCAG 2.1 Coding best practices being followedManual tests were also performed to ensure the website was accessible as possible and an accessibility 
+issue was identified.
 
 Issue was found but resolved 
 
@@ -176,8 +177,42 @@ CSS code validator also came error free
 
 ![css!](/assets/media/cssvalidator.png "css validator")
 
-| Navigation link  | page to load       |
-| -----------      | -----------        |
+### Functional Testing
+
+**Navigation Links**
+
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+
+
+|Navigation link   | page to load       |
+|------------------|--------------------|
 | Home             | Home page          |
 | Our Hospitals    |  ourhospital.html  |
+| Chat             | contact.html       |
+| Booking          | thanks.html        |
+
+Links on all pages navigated to the correct pages as exptected.
+
+**Form Testing**
+
+The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+
+_Scenario One - Correct Inputs_
+
+Steps to test:
+
+1. Navigate to [Life hospital- Home Page]( https://nikkeljohn.github.io/life/index.html)
+2. Scroll down to the form and input the following data:
+   -  Name       : John
+   - Phone number: 1223131
+   - Email       : john@gmail.com
+   
+3. Click Book!
+4. User should be redirected to contact.html confirmation page
+
+Expected:
+
+Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
+
 
