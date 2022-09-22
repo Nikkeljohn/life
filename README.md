@@ -220,7 +220,7 @@ Form submits with no warnings or errors and user is redirected to contact.html c
 
 Actual:
 
-Website behaved as expected with no errors or warnings and redirected to contact.html.
+Website behaved as expected with no errors or warnings and redirected to thanks.html
 
 _Scenario 2 - Missing Inputs Name_
 
@@ -305,7 +305,7 @@ Website behaved as expected, pop-up message was displayed and the form did not s
 
 Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each 
 
-Each item opened a new tab when clicked as expected.
+Each item opened a new tab when clicked as expected. Footer is only given to home page.
 
 **Contact Information**
 
@@ -354,6 +354,46 @@ A new tab is opend for map.
 Actual:
 
 Behavior was as expected a new tab for map is opened.
+
+Chat box
+_Scenario 1 - Correct Inputs_
+
+Steps to test:
+
+1. Navigate to [Life hospital- chat]( https://nikkeljohn.github.io/life/chat.html)
+2. Click chat
+2. Scroll down to the form and input the following data:
+   - Type message     : is  doctor jj working on 8/11/2022 
+   
+3. Click Book!
+4. User should be redirected to contact.html confirmation page
+
+Expected:
+
+Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
+
+Actual:
+
+Website behaved as expected with no errors or warnings and redirected to contact.html.
+
+_Scenario 2 - Missing Inputs no message typed_
+
+Steps to test:
+
+1. Navigate to [Life hospital- chat]( https://nikkeljohn.github.io/life/chat.html)
+2. Click on chat button
+2. Scroll down to the form and input the following data:
+   -  Type message      : 
+   
+3. Click send!
+
+Expected:
+
+The form does not submit and an pop-up is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not sent.
 
 ## Deployment
 
