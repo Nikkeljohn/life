@@ -435,7 +435,7 @@ The project will now of been cloned on your local machine for use.
 
 ## Credits 
 1. All the images were taken from google
-2. chat pop-up seen in chat.html was a references was taken from w3 school
+2. chat pop-up seen in chat.html was a references staken from w3 schools
 
 ## Special Thanks
 
