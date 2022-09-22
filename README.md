@@ -202,7 +202,7 @@ _Scenario One - Correct Inputs_
 
 Steps to test:
 
-1. Navigate to [Life hospital- Home Page]( https://nikkeljohn.github.io/life/index.html)
+1. Navigate to [Life hospital- Home Page]( https://nikkeljohn.github.io/life/signup.html)
 2. Scroll down to the form and input the following data:
    -  Name       : John
    - Phone number: 1223131
